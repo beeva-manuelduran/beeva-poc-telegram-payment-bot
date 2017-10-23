@@ -14,8 +14,8 @@ import java.util.List;
 
 public class MyPaymentBot extends TelegramLongPollingBot {
 
-    private final static String BOT_TOKEN = "1234567890:AAAABBBBCCCCDDDDeeeeFFFFgggGHHHH";
-    private final static String PROVIDER_TOKEN = "1234567890:TEST:AAAABBBBCCCCDDDD";
+    private final static String BOT_TOKEN = "1234567890:AAAABBBBCCCCDDDDeeeeFFFFgggGHHHH"; //BotFather Token
+    private final static String PROVIDER_TOKEN = "1234567890:TEST:AAAABBBBCCCCDDDD"; //BotFather - setttins - payments
 
     public void onUpdateReceived(Update update) {
 
